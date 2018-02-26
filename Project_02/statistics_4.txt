@@ -1,0 +1,15 @@
+h = self.monotonicity(grid) * (1 + (self.empty_tiles(grid) - self.adj_difference(grid))/16)
+depth: 3
+computer: 2s and 4s
+
+Results:
+512
+1024
+1024
+512
+512
+1024
+2048
+1024
+2048
+512
